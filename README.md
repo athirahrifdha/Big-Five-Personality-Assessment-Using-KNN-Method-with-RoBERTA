@@ -3,3 +3,8 @@ Kepribadian dipahami sebagai keadaan pikiran individu yang bergantung pada peril
 Penggunaan K-Nearest Neighbor (KNN) merupakan metode pengklasifikasian objek berdasarkan data latih terdekatnya. Untuk mengatasi ketidakseimbangan data pada data pelatihan, kami menggunakan K-Means SMOTE (Synthetic Minority Oversampling Technique). Fitur lain seperti LIWC (Linguistic Inquiry Word Count), Information Gain, Robustly Optimized BERT Approach (RoBERTa), dan hyperparameter tuning dapat meningkatkan performa sistem yang kami bangun. 
 
 ## K-Nearest Neighbor (KNN)
+ K-Nearest Neighbor (KNN) merupakan algoritma yang mengklasifikasikannya berdasarkan jarak terdekat [3], [10]. Pengklasifikasi K- Nearest Neighbor biasanya didasarkan pada jarak Euclidean antara sampel uji dan sampel pelatihan yang ditentukan. Tetangga terdekat k ditentukan di bawah ini,
+
+<img width="214" alt="KNN" src="https://github.com/athirahrifdha/Big-Five-Personality-Assessment-Using-KNN-Method-with-RoBERTA/assets/139842516/cd91c811-8745-4b78-88d8-b3a174e51d15">
+
+Pada rumus yang ada di atas, 𝑞𝑖 adalah data yang atributnya telah dinormalisasi dan 𝑃 adalah data uji baru di atas data latih.
